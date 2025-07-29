@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import FeauteredSection from '../components/FeauteredSection'
 import Banner from '../components/Banner'
 import Testimonial from '../components/Testimonial'
+import NewsLetter from '../components/NewsLetter'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <FeauteredSection/>
       <Banner/>
       <Testimonial/>
+      <NewsLetter/>
     </div>
   )
 }
